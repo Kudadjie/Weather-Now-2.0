@@ -1,0 +1,23 @@
+{
+  "name": "weather-now",
+  "version": "0.1.0",
+  "description": "Same old Weather Now App converted to a React App. The previous vanilla JS version of Weather Now was just too messy (especially the CSS) so I decided to try again but with React JS this time.",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "babel-preset-nano-react-app": "^0.1.0",
+    "vite": "^2.6.7"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}
